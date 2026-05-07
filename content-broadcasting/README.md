@@ -1,16 +1,32 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using React and Vite.  
+Vite makes the development process fast and provides instant updates in the browser with HMR (Hot Module Replacement).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Fast development setup with Vite
+- React-based UI
+- Clean and simple project structure
+- ESLint configured for better code quality
 
-## React Compiler
+## Plugins Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- @vitejs/plugin-react
+- @vitejs/plugin-react-swc
 
-## Expanding the ESLint configuration
+## Run the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+Build the project:
+npm run build
+
+## About This Project
+
+This project was created for practicing React and frontend development.  
+It includes modern React concepts and reusable components.
