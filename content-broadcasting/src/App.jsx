@@ -1,25 +1,25 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import { useAuth } from '@/context/AuthContext'
-import ProtectedRoute from '@/components/auth/ProtectedRoute'
-import PublicRoute from '@/components/auth/PublicRoute'
+import { useAuth } from './context/AuthContext'
+import ProtectedRoute from './components/auth/ProtectedRoute'
+import PublicRoute from './components/auth/PublicRoute'
 
 // Auth
 import LoginPage from '@/pages/auth/LoginPage'
 
 // Teacher
-import TeacherLayout from '@/components/layout/TeacherLayout'
-import TeacherDashboard from '@/pages/teacher/TeacherDashboard'
-import UploadContentPage from '@/pages/teacher/UploadContentPage'
-import MyContentPage from '@/pages/teacher/MyContentPage'
+import TeacherLayout from './components/layout/TeacherLayout'
+import TeacherDashboard from './pages/teacher/TeacherDashboard'
+import UploadContentPage from './pages/teacher/UploadContentPage'
+import MyContentPage from './pages/teacher/MyContentPage'
 
 // Principal
-import PrincipalLayout from '@/components/layout/PrincipalLayout'
-import PrincipalDashboard from '@/pages/principal/PrincipalDashboard'
-import PendingApprovalPage from '@/pages/principal/PendingApprovalPage'
-import AllContentPage from '@/pages/principal/AllContentPage'
+import PrincipalLayout from './components/layout/PrincipalLayout'
+import PrincipalDashboard from './pages/principal/PrincipalDashboard'
+import PendingApprovalPage from './pages/principal/PendingApprovalPage'
+import AllContentPage from './pages/principal/AllContentPage'
 
 // Public
-import LivePage from '@/pages/public/LivePage'
+import LivePage from './pages/public/LivePage'
 
 const RoleRedirect = () => {
   const { user } = useAuth()
