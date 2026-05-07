@@ -44,7 +44,7 @@ export default function LivePage() {
               EB
             </div>
             <div>
-              <span className="font-display font-bold text-white">EduBroadcast</span>
+              <span className="font-display font-bold text-white">Grubpac Broadcast</span>
               {teacher && (
                 <span className="text-white/50 text-sm ml-2">· {teacher.name}</span>
               )}

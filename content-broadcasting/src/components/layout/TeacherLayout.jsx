@@ -12,7 +12,7 @@ const PAGE_TITLES = {
 export default function TeacherLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const location = useLocation()
-  const title = PAGE_TITLES[location.pathname] || 'EduBroadcast'
+  const title = PAGE_TITLES[location.pathname] || 'Grubpac Broadcast'
 
   return (
     <div className="flex h-screen bg-surface-50 overflow-hidden">

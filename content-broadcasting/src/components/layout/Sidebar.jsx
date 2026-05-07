@@ -43,9 +43,9 @@ export default function Sidebar({ onClose }) {
       {/* Logo */}
       <div className="flex items-center gap-2.5 px-5 py-5 border-b border-surface-100">
         <div className="w-8 h-8 bg-brand-500 rounded-xl flex items-center justify-center text-white text-sm font-bold font-display shadow-brand">
-          EB
+          GB
         </div>
-        <span className="font-display font-bold text-surface-900 text-lg">EduBroadcast</span>
+        <span className="font-display font-bold text-surface-900 text-lg">Grubpac Broadcast</span>
         {onClose && (
           <button
             onClick={onClose}
@@ -79,7 +79,7 @@ export default function Sidebar({ onClose }) {
           <button
             onClick={logout}
             title="Sign out"
-            className="w-7 h-7 flex items-center justify-center rounded-lg text-surface-300 hover:text-red-500 hover:bg-red-50 transition-colors text-sm"
+            className="w-7 h-7 flex items-center justify-center rounded-lg bg-surface-100 text-surface-700 hover:text-red-500 hover:bg-red-50 transition-colors text-base font-black"
           >
             →
           </button>
